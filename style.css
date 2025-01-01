@@ -1,0 +1,942 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: #040405;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+/* header */
+
+.headercontainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 1px solid #003004;
+}
+
+
+.headerancorClass {
+    display: flex;
+    gap: 16px;
+}
+
+
+.headerancorClass a {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+.headerancorClass a:hover {
+    color: #00FF1A;
+}
+
+
+
+.buttonClass {
+    display: flex;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    background-color: #00FF1A;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonClass:hover {
+    color: #FFF;
+}
+
+
+/* main */
+
+
+.maincontainer {
+    display: flex;
+    flex-direction: column;
+    gap: 112px;
+}
+
+main {
+    color: #FFF;
+    max-width: 1440px;
+    width: 100%;
+    /* height: 3862px; */
+}
+
+
+/*  */
+
+.mianhedClass {
+    display: flex;
+    justify-content: center;
+    gap: 151px;
+    margin-top: 112px;
+    flex-wrap: wrap;
+}
+
+.mainClass {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.pimgClass {
+    display: flex;
+    gap: 12px;
+}
+
+.pimgClass p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+.paragrapClass {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#earn_box {
+    display: flex;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 900;
+    max-width: 500px;
+    width: 100%;
+}
+
+
+#Deposit_box {
+    display: flex;
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    max-width: 500px;
+    width: 100%;
+}
+
+
+.mainbuuttonClas {
+    display: flex;
+    gap: 16px;
+}
+
+
+.StakebuttonClass {
+    display: flex;
+    color: #000;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 24px;
+    background-color: #00FF1A;
+    border: none;
+    cursor: pointer;
+}
+
+
+.StakebuttonClass:hover {
+    color: #FFF;
+}
+
+
+.howbuttonClass {
+    display: flex;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #040405;
+    border-radius: 24px;
+    border: 1px solid #00FF1A;
+    cursor: pointer;
+}
+
+
+
+.howbuttonClass:hover {
+    color: #00FF1A;
+}
+
+
+
+.imgspanClass img {
+    display: flex;
+}
+
+
+/*  */
+
+.miansaleClass {
+    display: inline-flex;
+    padding-top: 24px;
+    align-items: flex-start;
+    gap: 40px;
+    border-top: 1px solid #00FF1A;
+    max-width: 650px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+
+.mainparagrapClass {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+
+.saleClass {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+
+.contentClass {
+    color: #7A7A7A;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+/*  */
+
+
+.mainfirstClass {
+    display: flex;
+    gap: 22px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.textClass {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.mainfirstimgClass {
+    display: flex;
+    gap: 12px;
+}
+
+
+.mainfirstimgClass p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+#boosted_box {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 900;
+    max-width: 500px;
+    width: 100%;
+}
+
+#Curve_box {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    max-width: 500px;
+    width: 100%;
+}
+
+
+ul {
+    list-style: none;
+
+}
+
+.borderClass {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 50px;
+    background-color: #00FF1A;
+    width: 10px;
+    height: 10px;
+    align-items: center;
+}
+
+
+.Withdrawals_box {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+
+.boost_box {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+.mainsecondClass {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+}
+
+.imgpClass {
+    display: flex;
+    gap: 12px;
+}
+
+
+.imgpClass p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.howClass {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 900;
+}
+
+
+.secondClass {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.boxerfirstClass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.boxerfirstClass img {
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px solid #00FF1A;
+    background-color: rgba(0, 255, 26, 0.10);
+}
+
+
+.Classimg {
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+
+
+.pClass {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #4A4A4E;
+    padding: 0px 20px 0px 20px;
+}
+
+
+
+.RegisterClass {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+
+
+.DepositClass {
+    color: #7A7A7A;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    max-width: 200px;
+    width: 100%;
+}
+
+
+/*  */
+
+
+
+.miandivClass {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}
+
+
+.firstdiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.firstimgdivmain {
+    display: flex;
+    gap: 12px;
+}
+
+
+.firstimgdivmain p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+#put_box {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 72px;
+    font-weight: 900;
+    max-width: 500px;
+    width: 100%;
+}
+
+
+
+#Stake_box {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    max-width: 450px;
+    width: 100%;
+}
+
+
+.pdivClass {
+    display: flex;
+    height: 111px;
+    padding: 0px 16px 24px 16px;
+    flex-direction: column;
+    gap: 8px;
+    border-left: 2px solid #00FF1A;
+}
+
+
+.pdiv {
+    display: flex;
+    height: 111px;
+    padding: 0px 16px 24px 16px;
+    flex-direction: column;
+    gap: 8px;
+    border-left: 2px solid #4A4A4E;
+}
+
+
+
+
+.lpClass {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    max-width: 350px;
+    width: 100%;
+}
+
+
+
+/*  */
+
+
+.mainlastClass {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+
+
+.miantreeClass {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+
+
+
+.mianlastimgClass {
+    display: flex;
+    gap: 12px;
+}
+
+
+.mianlastimgClass p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+
+.mainpadingClass {
+    display: flex;
+    padding: 24px 32px;
+    align-items: flex-start;
+    background-color: #1C1C20;
+    gap: 16px;
+    max-width: 550px;
+    width: 100%;
+}
+
+
+
+.lastdivClass {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+
+.imgdivClass {
+    width: 32px;
+    height: 32px;
+}
+
+
+
+.seconddiv {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+
+.CameronClass {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.NewYorkClass {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+
+
+.AmazingClass {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+
+.PellentesqueClass {
+    color: #B7B7B7;
+    font-family: Inter;
+    font-size: 22px;
+    max-width: 350px;
+    width: 100%;
+}
+
+
+.spanClass {
+    color: #00FF1A;
+    font-family: Inter;
+    font-size: 22px;
+}
+
+
+.mainimgdivClass {
+    width: 32px;
+    height: 32px;
+}
+
+
+.imgmainClass {
+    display: flex;
+    justify-content: right;
+}
+
+
+.secondmainClass {
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
+
+
+.arrowdivClass {
+    display: flex;
+    gap: 16px;
+}
+
+
+
+.arrowfirstClass {
+    width: 24px;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background-color: #F8F8F8;
+}
+
+
+.arrowlastClass {
+    width: 24px;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background-color: #00FF1A;
+}
+
+
+
+
+/*  */
+
+
+.openseconddivClass {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+
+.saportdiv {
+    display: flex;
+    gap: 12px;
+}
+
+
+.divoneClass {
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    gap: 12px;
+    align-items: flex-start;
+    background: #1C1C20;
+    max-width: 550px;
+    width: 100%;
+}
+
+
+
+.customerClass {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+
+
+
+.haveClass {
+    color: #B7B7B7;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: italic;
+}
+
+
+
+
+.phonediv {
+    display: flex;
+    gap: 12px;
+}
+
+
+
+.phoneimgdiv {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: #00FF1A;
+}
+
+
+
+.phonedivpClass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.phonepClass {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+
+/*  */
+
+
+
+.lastmainClass {
+    display: flex;
+    padding: 24px 32px;
+    align-items: center;
+    gap: 10px;
+    background-color: #1C1C20;
+}
+
+
+.lastmaindivClass {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+
+.mainvectorClass {
+    display: flex;
+    gap: 12px;
+}
+
+
+.mainvectorClass p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+
+.LeaveClass {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+
+.inputClass {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid #565656;
+}
+
+
+.textareaClass {
+    display: flex;
+    width: 328px;
+    height: 155px;
+    padding: 12px 16px;
+    align-items: flex-start;
+    border-radius: 4px;
+    border: 1px solid #565656;
+}
+
+
+:placeholder-shown {
+    background: none;
+    border: none;
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+
+.submitClass {
+    display: flex;
+    padding: 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    align-self: stretch;
+    border-radius: 4px;
+    background: #00FF1A;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.submitClass:hover {
+    color: #FFF;
+}
+
+
+
+/* footer */
+
+
+.footerClass {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 225px;
+    padding: 40px 200px;
+    border-top: 1px solid #00FF1A;
+}
+
+
+.footerpdiv {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+
+
+.CompanyClass {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+
+
+.CompanyClass:hover {
+    color: #00FF1A;
+}
+
+
+
+.AboutClass {
+    color: #7A7A7A;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+
+.AboutClass:hover {
+    color: #00FF1A;
+}
+
+
+.footerimgClass {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.socialiconClass {
+    display: flex;
+    gap: 16px;
+}
+
+
+.FollowClass {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+.FollowClass:hover {
+    color: #00FF1A;
+}
