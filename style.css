@@ -206,10 +206,17 @@ main {
 
 /*  */
 
+
+.maindolarClass {
+    display: flex;
+    justify-content: center;
+}
+
+
 .miansaleClass {
-    display: inline-flex;
+    display: flex;
     padding-top: 24px;
-    align-items: flex-start;
+    justify-content: flex-start;
     gap: 40px;
     border-top: 1px solid #00FF1A;
     max-width: 650px;
@@ -431,6 +438,7 @@ ul {
     display: flex;
     justify-content: center;
     gap: 22px;
+    flex-wrap: wrap;
 }
 
 
@@ -519,6 +527,7 @@ ul {
     display: flex;
     gap: 24px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 
@@ -871,6 +880,7 @@ ul {
     margin-top: 225px;
     padding: 40px 200px;
     border-top: 1px solid #00FF1A;
+    flex-wrap: wrap;
 }
 
 
